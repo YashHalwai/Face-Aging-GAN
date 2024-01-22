@@ -1,14 +1,17 @@
+Certainly! Here's a properly formatted `readme.md` file for the AgeGAN project:
+
+```markdown
 # AgeGAN: Age Progression/Regression with GANs
 
 ## Overview
 
-AgeGAN is a deep learning model that utilizes Generative Adversarial Networks (GANs) for age progression and regression on facial images. This repository provides a pretrained model for immediate inference on your own images and comprehensive instructions for training your own model using the CACD or UTK Faces datasets.
+AgeGAN is a deep learning model that leverages Generative Adversarial Networks (GANs) to perform age progression and regression on facial images. This repository provides both a pre-trained model for inference on your own images and instructions for training your own model using the CACD or UTK faces datasets.
 
 ## Getting Started
 
 ### Pretrained Model Inference
 
-To test the pretrained model on your images, follow these steps:
+To try out the pretrained model on your images, follow these steps:
 
 1. **Clone the repository:**
     ```bash
@@ -28,7 +31,7 @@ To test the pretrained model on your images, follow these steps:
 
 ### Training Your Own Model
 
-If you wish to train your own AgeGAN model, follow these steps:
+If you want to train your own AgeGAN model, follow these steps:
 
 #### Dataset Preparation
 
@@ -65,11 +68,7 @@ tensorboard --logdir=lightning_logs --bind_all
 
 Visit `http://localhost:6006` in your web browser to visualize losses and generated images.
 
-### Download Datasets
-
-- UTK Face dataset (Aligned & Cropped Faces): [Download Link](https://susanqq.github.io/UTKFace/)
-- CACD dataset: [Download Link](https://bcsiriuschen.github.io/CARC/)
-
-Ensure to comply with the dataset licenses and terms of use.
-
-Feel free to reach out for any issues or improvements!
+**Download Links for Datasets:**
+- UTK Face dataset (Aligned & Cropped Faces): [UTKFace](https://susanqq.github.io/UTKFace/)
+- CACD dataset: [CACD](https://bcsiriuschen.github.io/CARC/)
+```
