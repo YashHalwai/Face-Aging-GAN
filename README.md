@@ -2,13 +2,13 @@
 
 ## Overview
 
-AgeGAN is a deep learning model that utilizes Generative Adversarial Networks (GANs) for age progression and regression tasks on facial images. This repository provides a pretrained model for inference on your images and instructions for training your own model using the CACD or UTK faces datasets.
+AgeGAN is a deep learning model that leverages Generative Adversarial Networks (GANs) for age progression and regression tasks on facial images. This repository includes a pretrained model for immediate inference on your images and guidelines for training your own model using either the CACD or UTK faces datasets.
 
 ## Getting Started
 
 ### Pretrained Model Inference
 
-To try out the pretrained model on your images, follow these steps:
+To apply the pretrained model to your images, follow these steps:
 
 1. Clone the repository:
     ```bash
@@ -28,7 +28,7 @@ To try out the pretrained model on your images, follow these steps:
 
 ### Training Your Own Model
 
-If you want to train your own AgeGAN model, follow these steps:
+If you intend to train your own AgeGAN model, adhere to these steps:
 
 #### Dataset Preparation
 
@@ -70,4 +70,4 @@ Visit `http://localhost:6006` in your web browser to visualize losses and genera
 Download links for datasets:
 
 - UTK Face dataset (Aligned & Cropped Faces): [UTKFace](https://susanqq.github.io/UTKFace/)
-- CACD dataset: [CACD](https://bcsiriuschen.github.io/CARC/)
+- CACD dataset: [CACD](https://bcsiriuschen.github.io/CARC/) (Note: Metadata only can be downloaded separately [here](https://bcsiriuschen.github.io/CARC/))
