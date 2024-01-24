@@ -1,6 +1,6 @@
 # Data configs
-domainA_dir: '/home/hasnain/Datasets/processedCACDDomains/trainA'
-domainB_dir: '/home/hasnain/Datasets/processedCACDDomains/trainB'
+domainA_dir: 'D:/FaceAgingCAAE/FaceAgingFF/Fast-AgingGAN/data_img/trainA'
+domainB_dir: 'D:/FaceAgingCAAE/FaceAgingFF/Fast-AgingGAN/data_img/trainB'
 
 # Network Configs
 ngf: 32
